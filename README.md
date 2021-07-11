@@ -18,3 +18,7 @@
 > confirm = browser.switch_to.alert
 > confirm.accept()
 #### confirm.dismiss() - метод для отказа для confirm-окон.
+### prompt - модальное окно имеет дополнительное поле для ввода текста. Чтобы ввести текст, используйте метод send_keys()
+> prompt = browser.switch_to.alert
+prompt.send_keys("My answer")
+prompt.accept()
