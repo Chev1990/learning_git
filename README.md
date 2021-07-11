@@ -22,3 +22,5 @@
 > prompt = browser.switch_to.alert
 prompt.send_keys("My answer")
 prompt.accept()
+### switch_to.window - для переключения на новую вкладку надо явно указать, на какую вкладку мы хотим перейти. Это делается с помощью данной команды.
+> browser.switch_to.window(window_name)
