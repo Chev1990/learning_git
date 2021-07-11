@@ -26,4 +26,4 @@ prompt.accept()
 > browser.switch_to.window(window_name)
 ### window_handles - чтобы узнать имя новой вкладки, нужно использовать метод window_handles, который возвращает массив имён всех вкладок. Зная, что в браузере теперь открыто две вкладки, выбираем вторую вкладку:
 > new_window = browser.window_handles[1]
->> current_window = browser.current_window_handle - имя текщей вкладки
+>> current_window = browser.current_window_handle - имя текущей вкладки
