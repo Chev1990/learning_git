@@ -35,3 +35,4 @@ browser.implicitly_wait(5)
 button = WebDriverWait(browser, 5).until(
         EC.element_to_be_clickable((By.ID, "verify"))
     )
+>>> функция until, в которую передается правило ожидания, элемент, а также значение, по которому мы будем искать элемент
