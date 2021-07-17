@@ -28,5 +28,5 @@ prompt.accept()
 > new_window = browser.window_handles[1]
 >> current_window = browser.current_window_handle - имя текущей вкладки
 ### implicitly_wait - неявное ожидание. специальный способ организации такого ожидания, который позволяет задать ожидание при инициализации драйвера, чтобы применить его ко всем теста
->> # говорим WebDriver искать каждый элемент в течение 5 секунд
+>> говорим WebDriver искать каждый элемент в течение 5 секунд
 browser.implicitly_wait(5)
