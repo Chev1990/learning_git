@@ -48,3 +48,9 @@ button = WebDriverWait(browser, 5).until_not(
 - Если элемент был найден в момент поиска, но при последующем обращении к элементу DOM изменился, то получим **StaleElementReferenceException**. Например, мы нашли элемент Кнопка и через какое-то время решили выполнить с ним уже известный нам метод click. Если кнопка за это время была скрыта скриптом, то метод применять уже бесполезно — элемент "устарел" (stale) и мы увидим исключение.
 - Если элемент был найден в момент поиска, но сам элемент невидим (например, имеет нулевые размеры), и реальный пользователь не смог бы с ним взаимодействовать, то получим **ElementNotVisibleException**.
 ### assert - проверяет истинность утверждений. assert True не приводит к выводу дополнительных сообщений, а вот assert False вызовет исключение AssertionError.
+пример, вызов: assert abs(-42) == -42, "Should be absolute value of a number"
+результат: Traceback (most recent call last):
+
+  File "<stdin>", line 1, in <module>
+
+AssertionError: Should be absolute value of a number
