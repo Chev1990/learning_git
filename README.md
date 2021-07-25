@@ -59,3 +59,12 @@ AssertionError: Should be absolute value of a number
 ### format() - функция, с помощью которой python умеет подставлять пользовательские значения в строки.
 пример, print("Let's count together: {}, then goes {}, and then {}".format("one", "two", "three"))
 ### in , find - ключевое слово, функция, которые помогут в след. ситуации: иногда при работе с текстами не нужны жёсткие проверки на полное совпадение, и требуется проверить, что некий текст является подстрокой другого текста
+пример,
+        s = 'My Name is Julia'
+
+if 'Name' in s:
+    print('Substring found')
+
+index = s.find('Name')
+if index != -1:
+    print(f'Substring found at index {index}')
