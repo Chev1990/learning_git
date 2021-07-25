@@ -54,5 +54,6 @@ button = WebDriverWait(browser, 5).until_not(
   File "<stdin>", line 1, in <module>
 
 AssertionError: Should be absolute value of a number
-**### .format()** - функция, с помощью которой python умеет подставлять пользовательские значения в строки.
+
+###** .format()** - функция, с помощью которой python умеет подставлять пользовательские значения в строки.
 
