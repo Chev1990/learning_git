@@ -68,3 +68,4 @@ if 'Name' in s:
 index = s.find('Name')
 if index != -1:
     print(f'Substring found at index {index}')
+Три основных тестовых фреймворка для Python: **unittest, PyTest и nose**      
